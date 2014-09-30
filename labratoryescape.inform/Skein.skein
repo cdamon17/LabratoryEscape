@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x38c150" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x7bb99d0" />
+  <item nodeId="node-0x38c150">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+labratory
+An Interactive Fiction by Cole Damon
+Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Operating Room
+You wake up on a metal table in the center of a chrome room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="7">NO</temporary>
+    <children>
+      <child nodeId="node-0x9989220" />
+    </children>
+  </item>
+  <item nodeId="node-0x9989220">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x99825f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99825f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x9948770" />
+    </children>
+  </item>
+  <item nodeId="node-0x9948770">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Biometric Data Storage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x201180" />
+    </children>
+  </item>
+  <item nodeId="node-0x201180">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Genetic Testing
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x9992fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9992fb0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Cybernetics Lab
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x7bb99d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7bb99d0">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+</Skein>
