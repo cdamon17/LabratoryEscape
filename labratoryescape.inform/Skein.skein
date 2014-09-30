@@ -1,40 +1,116 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x38c150" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x182350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x38c150" />
-  <item nodeId="node-0x38c150">
+  <activeNode nodeId="node-0x182350" />
+  <item nodeId="node-0x182350">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
+You wake up on a metal table in the center of a chrome room. It looks like
 labratory
 An Interactive Fiction by Cole Damon
-Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 140930 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Operating Room
-You wake up on a metal table in the center of a chrome room. It looks like
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="15">NO</temporary>
+    <children>
+      <child nodeId="node-0x1915a0" />
+      <child nodeId="node-0x1823f0" />
+      <child nodeId="node-0x1823a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1823a0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Operating Room
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="8">NO</temporary>
-    <children>
-      <child nodeId="node-0x9989220" />
-      <child nodeId="node-0x7bed460" />
-    </children>
+    <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0x7bed460">
+  <item nodeId="node-0x1823f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Operating door)
 
 Biometric Data Storage
+You can see Genetics door here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x182440" />
+    </children>
   </item>
-  <item nodeId="node-0x9989220">
+  <item nodeId="node-0x182440">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Genetics door)
+
+Genetic Testing
+You can see Genetics door and Cybernetics door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x182490" />
+    </children>
+  </item>
+  <item nodeId="node-0x182490">
+    <command xml:space="preserve">x genetics door</command>
+    <result xml:space="preserve">You see nothing special about Genetics door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x182500" />
+    </children>
+  </item>
+  <item nodeId="node-0x182500">
+    <command xml:space="preserve">x cybernetics door</command>
+    <result xml:space="preserve">You see nothing special about Cybernetics door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x182570" />
+    </children>
+  </item>
+  <item nodeId="node-0x182570">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening Cybernetics door)
+
+Cybernetics Lab
+This room seems to be a labratory filled with robotic equipment. Considering that some of the machines look like robotic versons of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you!
+
+You can see Cybernetics door and Security door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x191550" />
+    </children>
+  </item>
+  <item nodeId="node-0x191550">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x1915a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -43,10 +119,10 @@ Biometric Data Storage
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x99825f0" />
+      <child nodeId="node-0x1915f0" />
     </children>
   </item>
-  <item nodeId="node-0x99825f0">
+  <item nodeId="node-0x1915f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -55,10 +131,10 @@ Biometric Data Storage
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x9948770" />
+      <child nodeId="node-0x191640" />
     </children>
   </item>
-  <item nodeId="node-0x9948770">
+  <item nodeId="node-0x191640">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Biometric Data Storage
@@ -68,10 +144,10 @@ Biometric Data Storage
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x201180" />
+      <child nodeId="node-0x1916b0" />
     </children>
   </item>
-  <item nodeId="node-0x201180">
+  <item nodeId="node-0x1916b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Genetic Testing
@@ -81,10 +157,10 @@ Genetic Testing
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x9992fb0" />
+      <child nodeId="node-0x1917e0" />
     </children>
   </item>
-  <item nodeId="node-0x9992fb0">
+  <item nodeId="node-0x1917e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Cybernetics Lab
@@ -94,10 +170,10 @@ Cybernetics Lab
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7bb99d0" />
+      <child nodeId="node-0x191830" />
     </children>
   </item>
-  <item nodeId="node-0x7bb99d0">
+  <item nodeId="node-0x191830">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Security Hallway
