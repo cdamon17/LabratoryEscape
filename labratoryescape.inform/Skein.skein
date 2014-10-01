@@ -1,54 +1,98 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x182350" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x4bbbe0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x182350" />
-  <item nodeId="node-0x182350">
+  <activeNode nodeId="node-0x4bbbe0" />
+  <item nodeId="node-0x4bbbe0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-You wake up on a metal table in the center of a chrome room. It looks like
+You wake up on a metal table in the center of a chrome room. You have no memory of how you got here, but suspect that The Organization has finaly captured you. It looks like they must have been preparing to run new experiments on you! You mest escape before The Organization can use you as a test subject again.
+
 labratory
 An Interactive Fiction by Cole Damon
-Release 1 / Serial number 140930 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Operating Room
+After taking a look around the room you are in, you can see many surgical tools around. The bright lights shine off the metal walls and floor, and illuminates everything. There is a door to the south, that must be the way out.
+
+You can see tools here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="15">NO</temporary>
+    <temporary score="17">NO</temporary>
     <children>
-      <child nodeId="node-0x1915a0" />
-      <child nodeId="node-0x1823f0" />
-      <child nodeId="node-0x1823a0" />
+      <child nodeId="node-0x4ddc90" />
+      <child nodeId="node-0x4dd720" />
+      <child nodeId="node-0x4dd6d0" />
+      <child nodeId="node-0x4dda30" />
+      <child nodeId="node-0x4dd950" />
+      <child nodeId="node-0x4dd660" />
+      <child nodeId="node-0x4bbc30" />
     </children>
   </item>
-  <item nodeId="node-0x1823a0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Operating Room
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-  </item>
-  <item nodeId="node-0x1823f0">
+  <item nodeId="node-0x4bbc30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Operating door)
 
 Biometric Data Storage
-You can see Genetics door here.
+This room has a sign calling it Biometric Data Storage, these computers must have been monatoring your condition. There is a door to the east, but it seems to be locked, you will have to find a way to unlock it. Maybe there could be a clue in the computers.
+
+You can see Genetics door and Biometric computers here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
     <children>
-      <child nodeId="node-0x182440" />
+      <child nodeId="node-0x4bbe40" />
+      <child nodeId="node-0x4bbc80" />
     </children>
   </item>
-  <item nodeId="node-0x182440">
+  <item nodeId="node-0x4bbc80">
+    <command xml:space="preserve">x computers</command>
+    <result xml:space="preserve">Biometric computers is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x4bbcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4bbcd0">
+    <command xml:space="preserve">turn on computers</command>
+    <result xml:space="preserve">You switch Biometric computers on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x4bbd60" />
+    </children>
+  </item>
+  <item nodeId="node-0x4bbd60">
+    <command xml:space="preserve">x computers</command>
+    <result xml:space="preserve">Biometric computers is currently switched on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x4bbdd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4bbdd0">
+    <command xml:space="preserve">x computers</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
+  <item nodeId="node-0x4bbe40">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Genetics door)
 
@@ -60,10 +104,10 @@ You can see Genetics door and Cybernetics door here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x182490" />
+      <child nodeId="node-0x4dd500" />
     </children>
   </item>
-  <item nodeId="node-0x182490">
+  <item nodeId="node-0x4dd500">
     <command xml:space="preserve">x genetics door</command>
     <result xml:space="preserve">You see nothing special about Genetics door.
 
@@ -72,10 +116,10 @@ You can see Genetics door and Cybernetics door here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x182500" />
+      <child nodeId="node-0x4dd550" />
     </children>
   </item>
-  <item nodeId="node-0x182500">
+  <item nodeId="node-0x4dd550">
     <command xml:space="preserve">x cybernetics door</command>
     <result xml:space="preserve">You see nothing special about Cybernetics door.
 
@@ -84,10 +128,10 @@ You can see Genetics door and Cybernetics door here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x182570" />
+      <child nodeId="node-0x4dd5a0" />
     </children>
   </item>
-  <item nodeId="node-0x182570">
+  <item nodeId="node-0x4dd5a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Cybernetics door)
 
@@ -101,16 +145,16 @@ You can see Cybernetics door and Security door here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x191550" />
+      <child nodeId="node-0x4dd5f0" />
     </children>
   </item>
-  <item nodeId="node-0x191550">
+  <item nodeId="node-0x4dd5f0">
     <command xml:space="preserve">w</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0x1915a0">
+  <item nodeId="node-0x4dd660">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -119,10 +163,10 @@ You can see Cybernetics door and Security door here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x1915f0" />
+      <child nodeId="node-0x4dd790" />
     </children>
   </item>
-  <item nodeId="node-0x1915f0">
+  <item nodeId="node-0x4dd790">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -131,10 +175,10 @@ You can see Cybernetics door and Security door here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x191640" />
+      <child nodeId="node-0x4dd4a0" />
     </children>
   </item>
-  <item nodeId="node-0x191640">
+  <item nodeId="node-0x4dd4a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Biometric Data Storage
@@ -144,10 +188,10 @@ Biometric Data Storage
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x1916b0" />
+      <child nodeId="node-0x4dd800" />
     </children>
   </item>
-  <item nodeId="node-0x1916b0">
+  <item nodeId="node-0x4dd800">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Genetic Testing
@@ -157,10 +201,10 @@ Genetic Testing
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x1917e0" />
+      <child nodeId="node-0x4dd870" />
     </children>
   </item>
-  <item nodeId="node-0x1917e0">
+  <item nodeId="node-0x4dd870">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Cybernetics Lab
@@ -170,10 +214,10 @@ Cybernetics Lab
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x191830" />
+      <child nodeId="node-0x4dd8e0" />
     </children>
   </item>
-  <item nodeId="node-0x191830">
+  <item nodeId="node-0x4dd8e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Security Hallway
@@ -182,5 +226,73 @@ Security Hallway
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x4dd950">
+    <command xml:space="preserve">x tools</command>
+    <result xml:space="preserve">Advanced looking tools with many shap pointy ends.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x4dd9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4dd9c0">
+    <command xml:space="preserve">take tools</command>
+    <result xml:space="preserve">Those look dangerous, you might hurt your self
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x4dda30">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Operating Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x4dd6d0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about Operating door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x4dd720">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">(tools)
+Those look dangerous, you might hurt your self
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x4ddc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ddc20">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x4ddc90">
+    <command xml:space="preserve">take tools</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
   </item>
 </Skein>
