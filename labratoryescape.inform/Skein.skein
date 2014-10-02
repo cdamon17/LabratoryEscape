@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4bbbe0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x4bbbe0" />
+  <activeNode nodeId="node-0xafb1e70" />
   <item nodeId="node-0x4bbbe0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -21,8 +21,9 @@ You can see tools here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="17">NO</temporary>
+    <temporary score="20">NO</temporary>
     <children>
+      <child nodeId="node-0x4992c0" />
       <child nodeId="node-0x4ddc90" />
       <child nodeId="node-0x4dd720" />
       <child nodeId="node-0x4dd6d0" />
@@ -44,53 +45,70 @@ You can see Genetics door and Biometric computers here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="17">YES</temporary>
+    <temporary score="20">YES</temporary>
     <children>
-      <child nodeId="node-0x4bbe40" />
+      <child nodeId="node-0x5d25850" />
       <child nodeId="node-0x4bbc80" />
+      <child nodeId="node-0x4bbe40" />
+      <child nodeId="node-0x5d730e0" />
     </children>
   </item>
-  <item nodeId="node-0x4bbc80">
-    <command xml:space="preserve">x computers</command>
-    <result xml:space="preserve">Biometric computers is currently switched off.
+  <item nodeId="node-0x5d730e0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">(Genetics door)
+The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the correct 5 digit code.
 
 &gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="17">YES</temporary>
-    <children>
-      <child nodeId="node-0x4bbcd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4bbcd0">
-    <command xml:space="preserve">turn on computers</command>
-    <result xml:space="preserve">You switch Biometric computers on.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="17">YES</temporary>
-    <children>
-      <child nodeId="node-0x4bbd60" />
-    </children>
-  </item>
-  <item nodeId="node-0x4bbd60">
-    <command xml:space="preserve">x computers</command>
-    <result xml:space="preserve">Biometric computers is currently switched on.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="17">YES</temporary>
-    <children>
-      <child nodeId="node-0x4bbdd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4bbdd0">
-    <command xml:space="preserve">x computers</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0x4404c0" />
+      <child nodeId="node-0xaf9ada0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf9ada0">
+    <command xml:space="preserve">spin 91998</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf6a1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf6a1c0">
+    <command xml:space="preserve">spin 91990 in door</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+    <children>
+      <child nodeId="node-0xaf5e490" />
+    </children>
+  </item>
+  <item nodeId="node-0xaf5e490">
+    <command xml:space="preserve">spin dial to 91998</command>
+    <result xml:space="preserve">(Genetics door to that)
+The door unlocks and opens with a hiss
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0x4404c0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">(Genetics door)
+Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked wtih a machanical spin dial and requires a 5 digit combo to unlock. Perhaps the computers hold a clue.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
   </item>
   <item nodeId="node-0x4bbe40">
     <command xml:space="preserve">e</command>
@@ -153,6 +171,78 @@ You can see Cybernetics door and Security door here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x4bbc80">
+    <command xml:space="preserve">x computers</command>
+    <result xml:space="preserve">Biometric computers is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x4bbcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4bbcd0">
+    <command xml:space="preserve">turn on computers</command>
+    <result xml:space="preserve">You switch Biometric computers on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x4bbd60" />
+    </children>
+  </item>
+  <item nodeId="node-0x4bbd60">
+    <command xml:space="preserve">x computers</command>
+    <result xml:space="preserve">Biometric computers is currently switched on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x4bbdd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4bbdd0">
+    <command xml:space="preserve">x computers</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
+  <item nodeId="node-0x5d25850">
+    <command xml:space="preserve">spin computers</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d0a2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d0a2a0">
+    <command xml:space="preserve">spin dials</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0xafb1e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xafb1e70">
+    <command xml:space="preserve">spin dial</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
   </item>
   <item nodeId="node-0x4dd660">
     <command xml:space="preserve">e</command>
@@ -294,5 +384,92 @@ Those look dangerous, you might hurt your self
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0x4992c0">
+    <command xml:space="preserve"> x door</command>
+    <result xml:space="preserve">You see nothing special about Operating door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d8d3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d8d3c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening Operating door)
+
+Biometric Data Storage
+This room has a sign calling it Biometric Data Storage, these computers must have been monatoring your condition. There is a door to the east, but it seems to be locked, you will have to find a way to unlock it. Maybe there could be a clue in the computers.
+
+You can see Genetics door and Biometric computers here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x490430" />
+    </children>
+  </item>
+  <item nodeId="node-0x490430">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">(Genetics door)
+You see nothing special about Genetics door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x257ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x257ca0">
+    <command xml:space="preserve">x computers</command>
+    <result xml:space="preserve">Biometric computers is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x48c840" />
+    </children>
+  </item>
+  <item nodeId="node-0x48c840">
+    <command xml:space="preserve">turn computers on</command>
+    <result xml:space="preserve">You switch Biometric computers on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x454240" />
+    </children>
+  </item>
+  <item nodeId="node-0x454240">
+    <command xml:space="preserve">use computers</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x42be70" />
+    </children>
+  </item>
+  <item nodeId="node-0x42be70">
+    <command xml:space="preserve">x computers</command>
+    <result xml:space="preserve">Biometric computers is currently switched on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
   </item>
 </Skein>
