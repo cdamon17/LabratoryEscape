@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x4bbbe0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xafb1e70" />
+  <activeNode nodeId="node-0xe88e510" />
   <item nodeId="node-0x4bbbe0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -21,7 +21,7 @@ You can see tools here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="20">NO</temporary>
+    <temporary score="28">NO</temporary>
     <children>
       <child nodeId="node-0x4992c0" />
       <child nodeId="node-0x4ddc90" />
@@ -45,7 +45,7 @@ You can see Genetics door and Biometric computers here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="20">YES</temporary>
+    <temporary score="28">YES</temporary>
     <children>
       <child nodeId="node-0x5d25850" />
       <child nodeId="node-0x4bbc80" />
@@ -56,12 +56,12 @@ You can see Genetics door and Biometric computers here.
   <item nodeId="node-0x5d730e0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">(Genetics door)
-The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the correct 5 digit code.
+The door is sealed shut and seems like opens only when the correct combination is typed in the keypad. You must type the correct 5 digit code.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="16">YES</temporary>
+    <temporary score="28">YES</temporary>
     <children>
       <child nodeId="node-0x4404c0" />
       <child nodeId="node-0xaf9ada0" />
@@ -103,12 +103,69 @@ The door unlocks and opens with a hiss
   <item nodeId="node-0x4404c0">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">(Genetics door)
-Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked wtih a machanical spin dial and requires a 5 digit combo to unlock. Perhaps the computers hold a clue.
+Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked wtih many machanical arms. The only opening is a machanical keypad that looks like it is requiered to have a 5 digit code typed into it. Perhaps the computers holds a clue.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d1a0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d1a0e0">
+    <command xml:space="preserve">type 91998</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xd088590" />
+    </children>
+  </item>
+  <item nodeId="node-0xd088590">
+    <command xml:space="preserve">type in keypad 91998</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xd089410" />
+    </children>
+  </item>
+  <item nodeId="node-0xd089410">
+    <command xml:space="preserve">type 91998 in keypad</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d1ca80" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d1ca80">
+    <command xml:space="preserve">type 91998 in door</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
+    <children>
+      <child nodeId="node-0xe88e510" />
+    </children>
+  </item>
+  <item nodeId="node-0xe88e510">
+    <command xml:space="preserve">type door to 91998</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
   </item>
   <item nodeId="node-0x4bbe40">
     <command xml:space="preserve">e</command>
@@ -240,6 +297,9 @@ You can see Cybernetics door and Security door here.
   </item>
   <item nodeId="node-0xafb1e70">
     <command xml:space="preserve">spin dial</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
