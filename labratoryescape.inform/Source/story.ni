@@ -67,7 +67,7 @@ Cybernetics Lab is south of Cybernetics door. "This room seems to be a laborator
 
 Cybernetic computers is a device. Cybernetic computers is in Cybernetics Lab. At start of game Cybernetic computers is in the off position. The description of Cybernetic computers is "[if cybernetic computers is switched on] Test subject W-61 displays high affinity for cybernetic implants. Organization top scientists have allowed that if experiments with XVO compound result in failure, but subject body is still alive and usable, that W-61 is allowed to be the testing bed for project Organized Roboticly Bonded Solders. The affinity of W-61 for cybernetics is high enough to show a 000 rejection rate, a perfect test subject for project ORBS"
 
-Hall door is west of Cybernetics Lab and east of Security Hallway. Hall door is a door. Hall door is fixed in place, locked and lockable, closed and openable. The description is "Another mechanical door, really? You would think that The Organization would at least start to make it a chalenge to escape, but all the better for you. It looks like this door needs a 3 digit code to be spun. "
+Hall door is west of Cybernetics Lab and east of Security Hallway. Hall door is a door. Hall door is fixed in place, locked and lockable, closed and openable. The description is "Another mechanical door, really? You would think that The Organization would at least start to make it a challenge to escape, but all the better for you. It looks like this door needs a 3 digit code to be spun. "
 [Understand "dial" and "dials" as the door.]
 
 Instead of opening Hall door when Hall door is locked:
@@ -96,6 +96,6 @@ Instead of opening Final door when Final door is locked:
 	
 camera is a thing. camera is in Security Hallway. camera is fixed in place. The description is "A secruity camera that is watching your every move. The perfect image for The Organization."
 
-An every turn rule:
+[An every turn rule:
 	if sticky notes is on camera:
-		end the game saying "The door silently glides open to the outside world. Freedom now awaits. You can now be free from becoming an Organization experiment once again. They might have created you, but they can never control you!"
+		end the game saying "The door silently glides open to the outside world. Freedom now awaits. You can now be free from becoming an Organization experiment once again. They might have created you, but they can never control you!"]
