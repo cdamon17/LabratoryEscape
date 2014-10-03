@@ -11,7 +11,7 @@ You wake up on a metal table in the center of a chrome room. You have no memory 
 
 laboratory
 An Interactive Fiction by Cole Damon
-Release 1 / Serial number 141002 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141003 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Operating Room
 After taking a look around the room you are in, you can see many surgical tools around. The bright lights shine off the metal walls and floor, and illuminates everything. There is a door to the south, that must be the way out.
@@ -20,7 +20,7 @@ You can see tools here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="58">NO</temporary>
     <children>
       <child nodeId="node-0x1d52f0" />

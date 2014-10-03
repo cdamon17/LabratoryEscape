@@ -4,7 +4,7 @@ When play begins: say "You wake up on a metal table in the center of a chrome ro
 
 Operating Room is a room. "After taking a look around the room you are in, you can see many surgical tools around. The bright lights shine off the metal walls and floor, and illuminates everything. There is a door to the south, that must be the way out."
 
-tools is a thing. tools is in Operating Room. The description is "Advanced looking tools with many sharp pointy ends." Instead of player taking tools, say "Those look dangerous, you might hurt your self"
+tools is a thing. tools is in Operating Room. The description is "Advanced looking tools with many sharp pointy ends. The Organization always did have a flair for dramatic tools." Instead of player taking tools, say "Those look dangerous, you might hurt your self"
 
 Operating door is south of Operating Room and north of Biometric Data Storage. Operating door is a door. Operating door is scenery.
 
@@ -48,8 +48,6 @@ Understand "dial" and "dials" as the door.
 
 Instead of opening Cybernetics door when cybernetics door is locked:
 	say "The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct ."
-[Create an action for spinning the dials.]
-Understand "spin [something] to [a number]" as spinning it to.
 
 [Check the action spinning in case its not applied to Genetics door.]
 Check spinning it to: 
@@ -68,12 +66,11 @@ Cybernetics Lab is south of Cybernetics door. "This room seems to be a laborator
 Cybernetic computers is a device. Cybernetic computers is in Cybernetics Lab. At start of game Cybernetic computers is in the off position. The description of Cybernetic computers is "[if cybernetic computers is switched on] Test subject W-61 displays high affinity for cybernetic implants. Organization top scientists have allowed that if experiments with XVO compound result in failure, but subject body is still alive and usable, that W-61 is allowed to be the testing bed for project Organized Roboticly Bonded Solders. The affinity of W-61 for cybernetics is high enough to show a 000 rejection rate, a perfect test subject for project ORBS"
 
 Hall door is west of Cybernetics Lab and east of Security Hallway. Hall door is a door. Hall door is fixed in place, locked and lockable, closed and openable. The description is "Another mechanical door, really? You would think that The Organization would at least start to make it a challenge to escape, but all the better for you. It looks like this door needs a 3 digit code to be spun. "
-[Understand "dial" and "dials" as the door.]
+Understand "dial" and "dials" as the door.
 
 Instead of opening Hall door when Hall door is locked:
 	say "The door is sealed shut and seems like it will only opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct "
 [Create an action for spinning the dials.]
-
 
 [Check the action spinning in case its not applied to Genetics door.]
 Check spinning it to: 
@@ -92,10 +89,9 @@ Security Hallway is west of Security door. "A long hallway, like the kind in mov
 Final door is south of Security Hallway. Final door is a door. Final door is fixed in place, locked and lockable, closed and openable. The description is "This door is smooth and has nothing you can interact with, there must be something else you have to do to unlocks the door."
 
 Instead of opening Final door when Final door is locked:
-	say "Theres nothing to open the door with, something different must be done to unlock the door. You especially can not escape with that camera showing The Orginazation what you are doing."
+	say "There is nothing to open the door with, something different must be done to unlock the door. You especially can not escape with that camera showing The Orginazation what you are doing."
 	
-camera is a thing. camera is in Security Hallway. camera is fixed in place. The description is "A secruity camera that is watching your every move. The perfect image for The Organization."
+camera is a thing. camera is in Security Hallway. camera is fixed in place. The description is "A security camera that is watching your every move. The perfect image for The Organization."
 
-[An every turn rule:
-	if sticky notes is on camera:
-		end the game saying "The door silently glides open to the outside world. Freedom now awaits. You can now be free from becoming an Organization experiment once again. They might have created you, but they can never control you!"]
+An every turn rule:
+	end the game saying "The door silently glides open to the outside world. Freedom now awaits. You can now be free from becoming an Organization experiment once again. They might have created you, but they can never control you!" when sticky notes is on camera.
