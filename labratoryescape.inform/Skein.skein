@@ -20,8 +20,8 @@ You can see tools here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="58">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="62">NO</temporary>
     <children>
       <child nodeId="node-0x1d52f0" />
       <child nodeId="node-0x1d5280" />
@@ -690,12 +690,12 @@ Security Hallway
   </item>
   <item nodeId="node-0x1d4ef0">
     <command xml:space="preserve">x tools</command>
-    <result xml:space="preserve">Advanced looking tools with many shap pointy ends.
+    <result xml:space="preserve">Advanced looking tools with many sharp pointy ends. The Organization always did have a flair for dramatic tools.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="62">YES</temporary>
     <children>
       <child nodeId="node-0x1d4f60" />
     </children>
@@ -705,8 +705,37 @@ Security Hallway
     <result xml:space="preserve">Those look dangerous, you might hurt your self
 &gt;</result>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x10ecc480" />
+    </children>
+  </item>
+  <item nodeId="node-0x10ecc480">
+    <command xml:space="preserve">x lights</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x11d7fa00" />
+    </children>
+  </item>
+  <item nodeId="node-0x11d7fa00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening Operating door)
+
+Biometric Data Storage
+This room is covered with computer screens with different images and numbers on them. It also has a sign has a sign calling it Biometric Data Storage. These computers must have been monitoring your condition. There is a door to the east, but it seems to be locked, you will have to find a way to unlock it. Maybe there could be a clue in the computers.
+
+You can see Genetics door and Biometric computers here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
   </item>
   <item nodeId="node-0x1d4fd0">
     <command xml:space="preserve">l</command>
