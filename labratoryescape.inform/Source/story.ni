@@ -16,7 +16,7 @@ Biometric sign is a thing. Biometric sign is in Biometric Data storage. Biometri
 
 Biometric computers is a device. Biometric computers is in Biometric Data Storage. At start of game Biometric computers is in the off position. The description of Biometric computers is "[if biometric computers is switched on] Test subject W-61 has been successfully captured and sedated. Subject's vitals are at nominal levels and is sedated. Augmentation process is prepared and only awaits arrival of Organization doctors. Blood pressure: 1.0, nominal. Heart beat: 100 bpm, nominal. Height: 1.72 meters. Birth: 9-19-98. Age: 16 years 5 months 23 days and counting."[When Biometric computers is in the on position, say ] 
 
-Genetics door is east of Biometric Data Storage and west of Genetic Testing. Genetics door is a door. Genetics door is fixed in place, locked and lockable, closed and openable. The description is "Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked with many mechanical arms. The only opening is a mechanical spin dial that looks like it requires a 5 digit code to be spun all at once to unlock. Just like The Organization to Perhaps the computers holds a clue."
+Genetics door is east of Biometric Data Storage and west of Genetic Testing. Genetics door is a door. Genetics door is fixed in place, locked and lockable, closed and openable. The description is "Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked with many mechanical arms. The only opening is a mechanical dial that looks like it is required to spin to a 5 digit code all at once in order to be unlocked. Just like The Organization to use heavy security in their labs. Perhaps the computers holds a clue."
 Understand "dial" and "dials" as the door.
 
 Instead of opening Genetics door when Genetics door is locked:
@@ -43,7 +43,9 @@ Instead of spinning the closed Genetics door to 91998:
 
 Genetic Testing is east of Genetics door. "This new room seems very different from the last. This room is filled with test tubes filled with different colored liquids. There also seems to be a lack of computers compared to the last room, instead there are a lot of sticky notes. This makes sense for it shows the, diversity, of how Organization scientists work. There still seems to be no way to escape besides another sealed door to the south."
 
-sticky notes is a thing. sticky notes is in Genetic Testing. The description is "Varient lifeform DNA strands have been analyzed and selected. After much initial experimentation trials, the Xeno Variable Organism compound has finaly completed and is read for human experimentation. Test subject W-61 has recently been recaptured and chosen as the first live human experment with the XVO compound. This is the next step in operation World Organization. (a funny side note, in roman numerals, XVO makes my favoret time of day, 15 and 0, or rather 1:50 in the morning. lol)".
+sticky notes is a thing. sticky notes is in Genetic Testing. The description is "Varient lifeform DNA strands have been analyzed and selected. After much initial experimentation trials, the Xeno Variable Organism compound has finaly completed and is read for human experimentation. Test subject W-61 has recently been recaptured and chosen as the first live human experment with the XVO compound. This is the next step in operation World Organization. (a funny side note, in roman numerals, XVO makes my favoret time of day, a 1, a 5, and then O makes 0, or rather 1:50 in the morning. lol)".
+
+liquids is a thing. liquids is in Genetic Testing. The description is "Multi colored liquids with labels on them, but some of them have labels that say unrecognizable animals, or ones that are not thought to be real. Like the ones that say 'Dragon' or 'Zevon'." Instead of player taking liquids, say "These may look pretty, but they don't seem like they could help you escape. Now get moving, Organization scientists could come at any minuet!"
 
 Cybernetics door is south of Genetic Testing and north of Cybernetics Lab. Cybernetics door is a door. Cybernetics door is locked and lockable, closed and openable. The description is "Its another door. This one is like the one you just came through, big and locked with many different parts of machinery to keep it in place, but this time it looks like the code is 4 digits long. Its still the only way out though, so you need to hurry and find a way to open it, agents of The Organization will no doubt be here soon! No way do you want to be a lab rat agian."
 [copy Understand "dial" and "dials" as the door.]
@@ -63,7 +65,7 @@ Instead spinning the closed Cybernetics door to 150:
     say "The door unlocks and slowly jerks opens with the clang of moving parts."
 [End of code to open locked Genetics door.]
 
-Cybernetics Lab is south of Cybernetics door. "This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well!"
+Cybernetics Lab is south of Cybernetics door. "This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well! The next door is to the west."
 
 Cybernetic computers is a device. Cybernetic computers is in Cybernetics Lab. At start of game Cybernetic computers is in the off position. The description of Cybernetic computers is "[if cybernetic computers is switched on] Test subject W-61 displays high affinity for cybernetic implants. Organization top scientists have allowed that if experiments with XVO compound result in failure, but subject body is still alive and usable, that W-61 is allowed to be the testing bed for project Organized Roboticly Bonded Solders. The affinity of W-61 for cybernetics is high enough to show a 000 rejection rate, a perfect test subject for project ORBS".
 
@@ -86,7 +88,7 @@ Instead of spinning the closed Hall door to 000:
 [End of code to open locked Genetics door.]
 
 
-Security Hallway is west of Hall door. "A long hallway, like the kind in movies where all the traps are, but there only seems to be a camera. Oh no, that meens The Organization now knows your trying to escape. You can see the exit at the other end, get out as fast as you can, or you most surly will never get a chance to escape again! Maybe making sure the camera can't see you can buy some time."
+Security Hallway is west of Hall door. "A long hallway going south, like the kind in movies where all the traps are, but there only seems to be a camera. Oh no, that means The Organization now knows your trying to escape. You can see the exit at the other end, get out as fast as you can, or you most surly will never get a chance to escape again! Maybe making sure the camera can't see you can buy some time."
 
 Final door is south of Security Hallway. Final door is a door. Final door is locked and lockable, closed and openable. The description is "This door is smooth and has nothing you can interact with, there must be something else you have to do to unlocks the door."
 
@@ -101,11 +103,14 @@ camera can be covered or uncovered. The camera is uncovered.
 Instead of putting sticky notes on camera:
 	say "The lense of the camera is now covered.";
 	remove sticky notes from play;
+	now Final door is unlocked;
 	now camera is covered.
 	
 Every turn rule:
 	If Final door is open:
 		end the story finally saying "The door silently glides open to the outside world. Freedom now awaits. You can now be free from becoming an Organization experiment once again. They might have created you, but they can never control you!"
+		
+Outside room is south of Final door.
 
 [Lab is a room. "You feel trapped in here."
 
