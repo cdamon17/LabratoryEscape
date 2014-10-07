@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1d40e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1be160" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1d40e0" />
-  <item nodeId="node-0x1d40e0">
+  <activeNode nodeId="node-0x1be160" />
+  <item nodeId="node-0x1be160">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,48 +11,95 @@ You wake up on a metal table in the center of a chrome room. You have no memory 
 
 Laboratory Escape
 An Interactive Fiction by Cole Damon
-Release 1 / Serial number 141005 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141006 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Operating Room
 After taking a look around the room you are in, you can see many surgical tools around. The bright lights shine off the metal walls and floor, and illuminates everything. There is a door to the south, that must be the way out.
 
-You can see tools here.
-
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="124">NO</temporary>
+    <temporary score="139">NO</temporary>
     <children>
-      <child nodeId="node-0x11d427a0" />
-      <child nodeId="node-0x1d4ef0" />
-      <child nodeId="node-0x1d4130" />
+      <child nodeId="node-0x1bfdb0" />
+      <child nodeId="node-0xc29d910" />
+      <child nodeId="node-0x1be200" />
+      <child nodeId="node-0x1bfbf0" />
     </children>
   </item>
-  <item nodeId="node-0x1d4130">
+  <item nodeId="node-0x1bfbf0">
+    <command xml:space="preserve">x tools</command>
+    <result xml:space="preserve">Advanced looking tools with many sharp pointy ends. The Organization always did have a flair for dramatic tools.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bfc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bfc60">
+    <command xml:space="preserve">take tools</command>
+    <result xml:space="preserve">Those look dangerous, you might hurt your self
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bfcd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bfcd0">
+    <command xml:space="preserve">x lights</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bfd40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bfd40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening Operating door)
+
+Biometric Data Storage
+This room is covered with computer screens with different images and numbers on them. It also has a sign has a sign calling it Biometric Data Storage. These computers must have been monitoring your condition. There is a door to the east, but it seems to be locked, you will have to find a way to unlock it. Maybe there could be a clue in the computers.
+
+You can see Genetics door and Biometric computers here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+  </item>
+  <item nodeId="node-0x1be200">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Operating door)
 
 Biometric Data Storage
 This room is covered with computer screens with different images and numbers on them. It also has a sign has a sign calling it Biometric Data Storage. These computers must have been monitoring your condition. There is a door to the east, but it seems to be locked, with a spin dial lock that requires a 5 digit code to be spun all at once. You will have to find a way to unlock it. Maybe there could be a clue in the computers.
 
-You can see Genetics door and Biometric computers here.
+You can see Genetics door and Biometric computer here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="124">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0xbbe95b0" />
-      <child nodeId="node-0x1d4670" />
-      <child nodeId="node-0xd084f90" />
-      <child nodeId="node-0x1d4180" />
-      <child nodeId="node-0x1d46e0" />
-      <child nodeId="node-0x1d48a0" />
-      <child nodeId="node-0xd086a60" />
-      <child nodeId="node-0xfcd1a10" />
+      <child nodeId="node-0x1beb80" />
+      <child nodeId="node-0x1beec0" />
+      <child nodeId="node-0x1bf080" />
+      <child nodeId="node-0x1be9c0" />
+      <child nodeId="node-0x1be5a0" />
+      <child nodeId="node-0x1be550" />
+      <child nodeId="node-0x1be270" />
     </children>
   </item>
-  <item nodeId="node-0xfcd1a10">
+  <item nodeId="node-0x1be270">
     <command xml:space="preserve">turn dial to 91998</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -61,12 +108,12 @@ You can see Genetics door and Biometric computers here.
     <changed>NO</changed>
     <temporary score="112">YES</temporary>
     <children>
-      <child nodeId="node-0x40e930" />
-      <child nodeId="node-0xdb81990" />
-      <child nodeId="node-0x10ef8270" />
+      <child nodeId="node-0x1be460" />
+      <child nodeId="node-0x1be390" />
+      <child nodeId="node-0x1be2e0" />
     </children>
   </item>
-  <item nodeId="node-0x10ef8270">
+  <item nodeId="node-0x1be2e0">
     <command xml:space="preserve">spin dial to 91998</command>
     <result xml:space="preserve">(Genetics door to that)
 The door unlocks and opens with a hiss
@@ -75,7 +122,7 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="111">YES</temporary>
   </item>
-  <item nodeId="node-0xdb81990">
+  <item nodeId="node-0x1be390">
     <command xml:space="preserve">turn dial to 91998</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -84,10 +131,10 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="102">YES</temporary>
     <children>
-      <child nodeId="node-0x10e6c670" />
+      <child nodeId="node-0x1be3f0" />
     </children>
   </item>
-  <item nodeId="node-0x10e6c670">
+  <item nodeId="node-0x1be3f0">
     <command xml:space="preserve">turn door to 91998</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -96,7 +143,7 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="101">YES</temporary>
   </item>
-  <item nodeId="node-0x40e930">
+  <item nodeId="node-0x1be460">
     <command xml:space="preserve">turn genetics door to 91998</command>
     <result xml:space="preserve">I only understood you as far as wanting to turn Genetics door.
 
@@ -105,7 +152,7 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="104">YES</temporary>
   </item>
-  <item nodeId="node-0xd086a60">
+  <item nodeId="node-0x1be550">
     <command xml:space="preserve">spin dial</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -114,7 +161,7 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="31">YES</temporary>
   </item>
-  <item nodeId="node-0x1d48a0">
+  <item nodeId="node-0x1be5a0">
     <command xml:space="preserve">x computers</command>
     <result xml:space="preserve">Biometric computers is currently switched off.
 
@@ -123,10 +170,10 @@ The door unlocks and opens with a hiss
     <changed>NO</changed>
     <temporary score="25">YES</temporary>
     <children>
-      <child nodeId="node-0x1d4910" />
+      <child nodeId="node-0x1be5f0" />
     </children>
   </item>
-  <item nodeId="node-0x1d4910">
+  <item nodeId="node-0x1be5f0">
     <command xml:space="preserve">turn on computers</command>
     <result xml:space="preserve">You switch Biometric computers on.
 
@@ -135,10 +182,10 @@ The door unlocks and opens with a hiss
     <changed>NO</changed>
     <temporary score="25">YES</temporary>
     <children>
-      <child nodeId="node-0x1d4980" />
+      <child nodeId="node-0x1be660" />
     </children>
   </item>
-  <item nodeId="node-0x1d4980">
+  <item nodeId="node-0x1be660">
     <command xml:space="preserve">x computers</command>
     <result xml:space="preserve"> Test subject w-61 has been successfully captured and sedated. Subject&apos;s vitals are at nominal levels and is sedated. Augmentation process is prepared and only awaits arrival of Organization doctors. Blood pressure: 1.0, nominal. Heart beat: 100 bpm, nominal. Height: 1.72 meters. Birth: 9-19-98. Age: 16 years 5 months 23 days and counting.
 
@@ -148,79 +195,8 @@ Biometric computers is currently switched on.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d4620" />
-    </children>
   </item>
-  <item nodeId="node-0x1d4620">
-    <command xml:space="preserve">x computers</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-  </item>
-  <item nodeId="node-0x1d46e0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening Genetics door)
-
-Genetic Testing
-You can see Genetics door and Cybernetics door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d43d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d43d0">
-    <command xml:space="preserve">x genetics door</command>
-    <result xml:space="preserve">You see nothing special about Genetics door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d4750" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d4750">
-    <command xml:space="preserve">x cybernetics door</command>
-    <result xml:space="preserve">You see nothing special about Cybernetics door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d47c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d47c0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening Cybernetics door)
-
-Cybernetics Lab
-This room seems to be a labratory filled with robotic equipment. Considering that some of the machines look like robotic versons of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you!
-
-You can see Cybernetics door and Security door here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d4830" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d4830">
-    <command xml:space="preserve">w</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-  </item>
-  <item nodeId="node-0x1d4180">
+  <item nodeId="node-0x1be9c0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">(Genetics door)
 The door is sealed shut and seems like opens only when the correct combination is typed in the keypad. You must type the correct 5 digit code.
@@ -230,44 +206,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x1d4340" />
-      <child nodeId="node-0x1d41d0" />
+      <child nodeId="node-0x1be790" />
     </children>
   </item>
-  <item nodeId="node-0x1d41d0">
-    <command xml:space="preserve">spin 91998</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d4280" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d4280">
-    <command xml:space="preserve">spin 91990 in door</command>
-    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d42d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d42d0">
-    <command xml:space="preserve">spin dial to 91998</command>
-    <result xml:space="preserve">(Genetics door to that)
-The door unlocks and opens with a hiss
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-  </item>
-  <item nodeId="node-0x1d4340">
+  <item nodeId="node-0x1be790">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">(Genetics door)
 Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked wtih many machanical arms. The only opening is a machanical keypad that looks like it is requiered to have a 5 digit code typed into it. Perhaps the computers holds a clue.
@@ -277,10 +219,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x1d4430" />
+      <child nodeId="node-0x1bec90" />
     </children>
   </item>
-  <item nodeId="node-0x1d4430">
+  <item nodeId="node-0x1bec90">
     <command xml:space="preserve">type 91998</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -289,10 +231,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x1d4480" />
+      <child nodeId="node-0x1bed00" />
     </children>
   </item>
-  <item nodeId="node-0x1d4480">
+  <item nodeId="node-0x1bed00">
     <command xml:space="preserve">type in keypad 91998</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -301,10 +243,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x1d44d0" />
+      <child nodeId="node-0x1bed70" />
     </children>
   </item>
-  <item nodeId="node-0x1d44d0">
+  <item nodeId="node-0x1bed70">
     <command xml:space="preserve">type 91998 in keypad</command>
     <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
 
@@ -313,10 +255,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x1d4540" />
+      <child nodeId="node-0x1bede0" />
     </children>
   </item>
-  <item nodeId="node-0x1d4540">
+  <item nodeId="node-0x1bede0">
     <command xml:space="preserve">type 91998 in door</command>
     <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
 
@@ -325,10 +267,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x1d45b0" />
+      <child nodeId="node-0x1bee50" />
     </children>
   </item>
-  <item nodeId="node-0x1d45b0">
+  <item nodeId="node-0x1bee50">
     <command xml:space="preserve">type door to 91998</command>
     <result xml:space="preserve">(Genetics door to that)
 The door unlocks and opens with a hiss
@@ -337,7 +279,40 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="27">YES</temporary>
   </item>
-  <item nodeId="node-0xd084f90">
+  <item nodeId="node-0x1bf080">
+    <command xml:space="preserve">spin computers</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf0f0">
+    <command xml:space="preserve">spin dials</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="20">YES</temporary>
+    <children>
+      <child nodeId="node-0x1beb10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1beb10">
+    <command xml:space="preserve">spin dial</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+  </item>
+  <item nodeId="node-0x1beec0">
     <command xml:space="preserve">turn on computers</command>
     <result xml:space="preserve">You switch Biometric computers on.
 
@@ -346,10 +321,10 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0xb1a29b0" />
+      <child nodeId="node-0x1bef30" />
     </children>
   </item>
-  <item nodeId="node-0xb1a29b0">
+  <item nodeId="node-0x1bef30">
     <command xml:space="preserve">x computers</command>
     <result xml:space="preserve"> Test subject W-61 has been successfully captured and sedated. Subject&apos;s vitals are at nominal levels and is sedated. Augmentation process is prepared and only awaits arrival of Organization doctors. Blood pressure: 1.0, nominal. Heart beat: 100 bpm, nominal. Height: 1.72 meters. Birth: 9-19-98. Age: 16 years 5 months 23 days and counting.
 
@@ -360,10 +335,10 @@ Biometric computers is currently switched on.
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0xb1b0170" />
+      <child nodeId="node-0x1befa0" />
     </children>
   </item>
-  <item nodeId="node-0xb1b0170">
+  <item nodeId="node-0x1befa0">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">(Genetics door)
 Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked with many mechanical arms. The only opening is a mechanical spin dial that looks like it requires a 5 digit code to be spun to unlock. Just like The Organization to Perhaps the computers holds a clue.
@@ -373,10 +348,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="30">YES</temporary>
     <children>
-      <child nodeId="node-0xb1ed1d0" />
+      <child nodeId="node-0x1bf010" />
     </children>
   </item>
-  <item nodeId="node-0xb1ed1d0">
+  <item nodeId="node-0x1bf010">
     <command xml:space="preserve">turn dial to 91998</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -385,72 +360,39 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="29">YES</temporary>
   </item>
-  <item nodeId="node-0x1d4670">
-    <command xml:space="preserve">spin computers</command>
-    <result xml:space="preserve">I didn&apos;t understand that sentence.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="20">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d4b70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d4b70">
-    <command xml:space="preserve">spin dials</command>
-    <result xml:space="preserve">I didn&apos;t understand that sentence.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="20">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d4be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d4be0">
-    <command xml:space="preserve">spin dial</command>
-    <result xml:space="preserve">I didn&apos;t understand that sentence.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="19">YES</temporary>
-  </item>
-  <item nodeId="node-0xbbe95b0">
+  <item nodeId="node-0x1beb80">
     <command xml:space="preserve">spin dial to 91998</command>
     <result xml:space="preserve">(Genetics door to that)
 The door unlocks and opens with a hiss
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="124">YES</temporary>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0x323380" />
+      <child nodeId="node-0x1bebf0" />
     </children>
   </item>
-  <item nodeId="node-0x323380">
+  <item nodeId="node-0x1bebf0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Genetics door)
 
 Genetic Testing
 This new room seems very different from the last. This room is filled with test tubes filled with different colored liquids. There also seems to be a lack of computers compared to the last room, instead there are a lot of sticky notes. This makes sense for it shows the, diversity, of how Organization scientists work. There still seems to be no way to escape besides another sealed door to the south.
 
-You can see Genetics door, Cybernetics door, sticky notes and liquids here.
+You can see Genetics door, Cybernetics door and sticky notes here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="124">YES</temporary>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0xdb959b0" />
-      <child nodeId="node-0xdb72fa0" />
-      <child nodeId="node-0x32d7b0" />
-      <child nodeId="node-0xb181440" />
+      <child nodeId="node-0x1bf2b0" />
+      <child nodeId="node-0x1bf6b0" />
+      <child nodeId="node-0x1bf560" />
+      <child nodeId="node-0x1bf3a0" />
     </children>
   </item>
-  <item nodeId="node-0xb181440">
+  <item nodeId="node-0x1bf3a0">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">(Genetics door)
 The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct 5 digit code.
@@ -460,10 +402,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
     <children>
-      <child nodeId="node-0xbbb6bb0" />
+      <child nodeId="node-0x1bf410" />
     </children>
   </item>
-  <item nodeId="node-0xbbb6bb0">
+  <item nodeId="node-0x1bf410">
     <command xml:space="preserve">spin dial to 91998</command>
     <result xml:space="preserve">(Genetics door to that)
 Genetics door does not spin.
@@ -473,10 +415,10 @@ Genetics door does not spin.
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
     <children>
-      <child nodeId="node-0xbb08f70" />
+      <child nodeId="node-0x1bf480" />
     </children>
   </item>
-  <item nodeId="node-0xbb08f70">
+  <item nodeId="node-0x1bf480">
     <command xml:space="preserve">spin getentics door to 91998</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -484,20 +426,8 @@ Genetics door does not spin.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
-    <children>
-      <child nodeId="node-0xbbf7cd0" />
-    </children>
   </item>
-  <item nodeId="node-0xbbf7cd0">
-    <command xml:space="preserve">spin genetics door to 91998</command>
-    <result xml:space="preserve">Genetics door does not spin.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-  </item>
-  <item nodeId="node-0x32d7b0">
+  <item nodeId="node-0x1bf560">
     <command xml:space="preserve">spin dial to 1050</command>
     <result xml:space="preserve">Which do you mean, Genetics door or Cybernetics door?
 
@@ -506,10 +436,10 @@ Genetics door does not spin.
     <changed>NO</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0xdbb1c60" />
+      <child nodeId="node-0x1bf5d0" />
     </children>
   </item>
-  <item nodeId="node-0xdbb1c60">
+  <item nodeId="node-0x1bf5d0">
     <command xml:space="preserve">cybernetics</command>
     <result xml:space="preserve">The door unlocks and opens with a hiss
 &gt;</result>
@@ -517,10 +447,10 @@ Genetics door does not spin.
     <changed>YES</changed>
     <temporary score="51">YES</temporary>
     <children>
-      <child nodeId="node-0xdbca5e0" />
+      <child nodeId="node-0x1bf640" />
     </children>
   </item>
-  <item nodeId="node-0xdbca5e0">
+  <item nodeId="node-0x1bf640">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Cybernetics door)
 
@@ -534,84 +464,149 @@ You can see Cybernetics door and Hall door here.
     <changed>YES</changed>
     <temporary score="50">YES</temporary>
   </item>
-  <item nodeId="node-0xdb72fa0">
+  <item nodeId="node-0x1bf6b0">
     <command xml:space="preserve">take notes</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="124">YES</temporary>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0xdba2940" />
-      <child nodeId="node-0x11d530f0" />
+      <child nodeId="node-0x1bfaa0" />
+      <child nodeId="node-0x1bf720" />
     </children>
   </item>
-  <item nodeId="node-0x11d530f0">
+  <item nodeId="node-0x1bf720">
     <command xml:space="preserve">spin dial to 150</command>
     <result xml:space="preserve">Which do you mean, Genetics door or Cybernetics door?
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="124">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0x122f8be0" />
+      <child nodeId="node-0x1bf790" />
     </children>
   </item>
-  <item nodeId="node-0x122f8be0">
+  <item nodeId="node-0x1bf790">
     <command xml:space="preserve">cybernetics</command>
     <result xml:space="preserve">The door unlocks and slowly jerks opens with the clang of moving parts.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="124">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0x10edfd90" />
+      <child nodeId="node-0x1bf800" />
     </children>
   </item>
-  <item nodeId="node-0x10edfd90">
+  <item nodeId="node-0x1bf800">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Cybernetics door)
 
 Cybernetics Lab
-This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well!
+This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well! The next door is to the west.
 
-You can see Cybernetics door, Hall door and Cybernetic computers here.
+You can see Cybernetics door, Hall door and Cybernetic computer here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="124">YES</temporary>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0x122419c0" />
+      <child nodeId="node-0x1bf870" />
     </children>
   </item>
-  <item nodeId="node-0x122419c0">
+  <item nodeId="node-0x1bf870">
     <command xml:space="preserve">spin dial to 000</command>
     <result xml:space="preserve">Which do you mean, Cybernetics door or Hall door?
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="124">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0x148a1ee0" />
+      <child nodeId="node-0x1bf8e0" />
     </children>
   </item>
-  <item nodeId="node-0x148a1ee0">
+  <item nodeId="node-0x1bf8e0">
     <command xml:space="preserve">hall</command>
     <result xml:space="preserve">The door unlocks and opens with a hiss
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="124">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="139">YES</temporary>
     <children>
-      <child nodeId="node-0x13394010" />
+      <child nodeId="node-0x1bf950" />
+      <child nodeId="node-0x3d5cb0" />
     </children>
   </item>
-  <item nodeId="node-0x13394010">
+  <item nodeId="node-0x3d5cb0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2836c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2836c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening Hall door)
+
+Security Hallway
+A long hallway going south, like the kind in movies where all the traps are, but there only seems to be a camera. Oh no, that means The Organization now knows your trying to escape. You can see the exit at the other end, get out as fast as you can, or you most surely will never get a chance to escape again! Maybe making sure the camera can&apos;t see you can buy some time.
+
+You can see Hall door, Final door and camera here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x3f0b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x3f0b60">
+    <command xml:space="preserve">cover camera with notes</command>
+    <result xml:space="preserve">(first taking camera)
+That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2687a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2687a0">
+    <command xml:space="preserve">open hall door</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0xc28f340" />
+    </children>
+  </item>
+  <item nodeId="node-0xc28f340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening Final door)
+There is nothing to open the door with, something different must be done to unlock the door. You especially can not escape with that camera showing The Organization what you are doing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="138">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bf950">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">(first opening Hall door)
 
@@ -625,10 +620,10 @@ You can see Hall door, Final door and camera here.
     <changed>YES</changed>
     <temporary score="124">YES</temporary>
     <children>
-      <child nodeId="node-0x1220a850" />
+      <child nodeId="node-0x1bf9c0" />
     </children>
   </item>
-  <item nodeId="node-0x1220a850">
+  <item nodeId="node-0x1bf9c0">
     <command xml:space="preserve"> put notes on camera</command>
     <result xml:space="preserve">The lense of the camera is now covered.
 
@@ -637,10 +632,10 @@ You can see Hall door, Final door and camera here.
     <changed>YES</changed>
     <temporary score="124">YES</temporary>
     <children>
-      <child nodeId="node-0x12236880" />
+      <child nodeId="node-0x1bfa30" />
     </children>
   </item>
-  <item nodeId="node-0x12236880">
+  <item nodeId="node-0x1bfa30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Final door)
 
@@ -659,7 +654,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="123">YES</temporary>
   </item>
-  <item nodeId="node-0xdba2940">
+  <item nodeId="node-0x1bfaa0">
     <command xml:space="preserve">spin dial to 1050</command>
     <result xml:space="preserve">Which do you mean, Genetics door or Cybernetics door?
 
@@ -668,10 +663,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xd089030" />
+      <child nodeId="node-0x1bf160" />
     </children>
   </item>
-  <item nodeId="node-0xd089030">
+  <item nodeId="node-0x1bf160">
     <command xml:space="preserve">cybernetics door</command>
     <result xml:space="preserve">Cybernetics door does not spin.
 
@@ -680,10 +675,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xbbb5e60" />
+      <child nodeId="node-0x1bf1d0" />
     </children>
   </item>
-  <item nodeId="node-0xbbb5e60">
+  <item nodeId="node-0x1bf1d0">
     <command xml:space="preserve">spain cybernetics door dial to 1050</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -692,10 +687,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
     <children>
-      <child nodeId="node-0xbb99eb0" />
+      <child nodeId="node-0x1bf240" />
     </children>
   </item>
-  <item nodeId="node-0xbb99eb0">
+  <item nodeId="node-0x1bf240">
     <command xml:space="preserve">spin cybernetics door dial to 1050</command>
     <result xml:space="preserve">Cybernetics door does not spin.
 
@@ -704,7 +699,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="39">YES</temporary>
   </item>
-  <item nodeId="node-0xdb959b0">
+  <item nodeId="node-0x1bf2b0">
     <command xml:space="preserve">spin cybernetics door to 1050</command>
     <result xml:space="preserve">The door unlocks and opens with a hiss
 &gt;</result>
@@ -712,10 +707,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xdb70e70" />
+      <child nodeId="node-0x1bf320" />
     </children>
   </item>
-  <item nodeId="node-0xdb70e70">
+  <item nodeId="node-0x1bf320">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Cybernetics door)
 
@@ -729,10 +724,10 @@ You can see Cybernetics door and Hall door here.
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xb1212f0" />
+      <child nodeId="node-0x1bfb10" />
     </children>
   </item>
-  <item nodeId="node-0xb1212f0">
+  <item nodeId="node-0x1bfb10">
     <command xml:space="preserve">spin dial to 1</command>
     <result xml:space="preserve">Which do you mean, Cybernetics door or Hall door?
 
@@ -741,10 +736,10 @@ You can see Cybernetics door and Hall door here.
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xdbb0150" />
+      <child nodeId="node-0x1bfb80" />
     </children>
   </item>
-  <item nodeId="node-0xdbb0150">
+  <item nodeId="node-0x1bfb80">
     <command xml:space="preserve">hall</command>
     <result xml:space="preserve">
 *** Run-time problem P10: Since Security door is not allowed the property &quot;locked&quot;, it is against the rules to try to use it.
@@ -755,56 +750,1365 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
   </item>
-  <item nodeId="node-0x1d4ef0">
-    <command xml:space="preserve">x tools</command>
-    <result xml:space="preserve">Advanced looking tools with many sharp pointy ends. The Organization always did have a flair for dramatic tools.
+  <item nodeId="node-0xc29d910">
+    <command xml:space="preserve">open the door</command>
+    <result xml:space="preserve">You open Operating door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="62">YES</temporary>
+    <temporary score="125">YES</temporary>
     <children>
-      <child nodeId="node-0x1d4f60" />
+      <child nodeId="node-0xc29e360" />
     </children>
   </item>
-  <item nodeId="node-0x1d4f60">
-    <command xml:space="preserve">take tools</command>
-    <result xml:space="preserve">Those look dangerous, you might hurt your self
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="62">YES</temporary>
-    <children>
-      <child nodeId="node-0x10ecc480" />
-    </children>
-  </item>
-  <item nodeId="node-0x10ecc480">
-    <command xml:space="preserve">x lights</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="62">YES</temporary>
-    <children>
-      <child nodeId="node-0x11d7fa00" />
-    </children>
-  </item>
-  <item nodeId="node-0x11d7fa00">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">(first opening Operating door)
-
+  <item nodeId="node-0xc29e360">
+    <command xml:space="preserve">walk through the door</command>
+    <result xml:space="preserve">
 Biometric Data Storage
-This room is covered with computer screens with different images and numbers on them. It also has a sign has a sign calling it Biometric Data Storage. These computers must have been monitoring your condition. There is a door to the east, but it seems to be locked, you will have to find a way to unlock it. Maybe there could be a clue in the computers.
+This room is covered with computer screens with different images and numbers on them. It also has a sign has a sign calling it Biometric Data Storage. These computers must have been monitoring your condition. There is a door to the east, but it seems to be locked, with a spin dial lock that requires a 5 digit code to be spun all at once. You will have to find a way to unlock it. Maybe there could be a clue in the computers.
 
 You can see Genetics door and Biometric computers here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="61">YES</temporary>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e7aa00" />
+    </children>
   </item>
-  <item nodeId="node-0x11d427a0">
+  <item nodeId="node-0x5e7aa00">
+    <command xml:space="preserve">go to biometric computers</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x401b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x401b30">
+    <command xml:space="preserve">walk to computers</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e6e850" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e6e850">
+    <command xml:space="preserve">examine computer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc261240" />
+    </children>
+  </item>
+  <item nodeId="node-0xc261240">
+    <command xml:space="preserve">examine door</command>
+    <result xml:space="preserve">(Genetics door)
+Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked with many mechanical arms. The only opening is a mechanical dial that looks like it is required to spin to a 5 digit code all at once in order to be unlocked. Just like The Organization to use heavy security in their labs. Perhaps the computers holds a clue.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc296530" />
+    </children>
+  </item>
+  <item nodeId="node-0xc296530">
+    <command xml:space="preserve">read computer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e5d300" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e5d300">
+    <command xml:space="preserve">turn on computer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e6aa90" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e6aa90">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock Genetics door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc274d90" />
+    </children>
+  </item>
+  <item nodeId="node-0xc274d90">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2e00f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2e00f0">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc280860" />
+    </children>
+  </item>
+  <item nodeId="node-0xc280860">
+    <command xml:space="preserve">open genetics door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial at once. You must spin the dial to the correct 5 digit code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc283b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc283b10">
+    <command xml:space="preserve">spin the dial</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2b81d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2b81d0">
+    <command xml:space="preserve">spin the dial lock</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x408420" />
+    </children>
+  </item>
+  <item nodeId="node-0x408420">
+    <command xml:space="preserve">go to computers</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e7c150" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e7c150">
+    <command xml:space="preserve">examine the computers</command>
+    <result xml:space="preserve">Biometric computers is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x4d9740" />
+    </children>
+  </item>
+  <item nodeId="node-0x4d9740">
+    <command xml:space="preserve">switch on computer</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc293850" />
+    </children>
+  </item>
+  <item nodeId="node-0xc293850">
+    <command xml:space="preserve">switch on the biometric computers</command>
+    <result xml:space="preserve">You switch Biometric computers on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x3e3900" />
+    </children>
+  </item>
+  <item nodeId="node-0x3e3900">
+    <command xml:space="preserve">read computers</command>
+    <result xml:space="preserve"> Test subject W-61 has been successfully captured and sedated. Subject&apos;s vitals are at nominal levels and is sedated. Augmentation process is prepared and only awaits arrival of Organization doctors. Blood pressure: 1.0, nominal. Heart beat: 100 bpm, nominal. Height: 1.72 meters. Birth: 9-19-98. Age: 16 years 5 months 23 days and counting.
+
+Biometric computers is currently switched on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2f4960" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2f4960">
+    <command xml:space="preserve">open genetics door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial at once. You must spin the dial to the correct 5 digit code.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc277580" />
+    </children>
+  </item>
+  <item nodeId="node-0xc277580">
+    <command xml:space="preserve">9-19-97</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2e7990" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2e7990">
+    <command xml:space="preserve">9-19-98</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9b820" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9b820">
+    <command xml:space="preserve">unlock dial</command>
+    <result xml:space="preserve">What do you want to unlock Genetics door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e9d110" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e9d110">
+    <command xml:space="preserve">9-19-98</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2eeda0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2eeda0">
+    <command xml:space="preserve">unlock dial</command>
+    <result xml:space="preserve">What do you want to unlock Genetics door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2d2580" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2d2580">
+    <command xml:space="preserve">unlock with 91998</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2dd5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2dd5d0">
+    <command xml:space="preserve">unlock dial</command>
+    <result xml:space="preserve">What do you want to unlock Genetics door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eba220" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eba220">
+    <command xml:space="preserve">91998</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2cf5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2cf5a0">
+    <command xml:space="preserve">spin dial 91998</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e90550" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e90550">
+    <command xml:space="preserve">Spin the dial to 91998</command>
+    <result xml:space="preserve">(Genetics door to that)
+The door unlocks and opens with a hiss
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc265cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc265cf0">
+    <command xml:space="preserve">walk through door</command>
+    <result xml:space="preserve">(Genetics door)
+(first opening Genetics door)
+
+Genetic Testing
+This new room seems very different from the last. This room is filled with test tubes filled with different colored liquids. There also seems to be a lack of computers compared to the last room, instead there are a lot of sticky notes. This makes sense for it shows the, diversity, of how Organization scientists work. There still seems to be no way to escape besides another sealed door to the south.
+
+You can see Genetics door, Cybernetics door and sticky notes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2cd900" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2cd900">
+    <command xml:space="preserve">open cybernetic door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct .
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc244ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc244ee0">
+    <command xml:space="preserve">read sticky notes</command>
+    <result xml:space="preserve">Varient lifeform DNA strands have been analyzed and selected. After much initial experimentation trials, the Xeno Variable Organism compound has finaly completed and is read for human experimentation. Test subject W-61 has recently been recaptured and chosen as the first live human experment with the XVO compound. This is the next step in operation World Organization. (a funny side note, in roman numerals, XVO makes my favoret time of day, a 1, a 5, and then O makes 0, or rather 1:50 in the morning. lol)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2f9f40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2f9f40">
+    <command xml:space="preserve">open cybernetics door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct .
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2b1b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2b1b20">
+    <command xml:space="preserve">spin the dial to XVO</command>
+    <result xml:space="preserve">Which do you mean, Genetics door or Cybernetics door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d24b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d24b0">
+    <command xml:space="preserve">cybernetics door</command>
+    <result xml:space="preserve">I didn&apos;t understand that number.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ebe160" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ebe160">
+    <command xml:space="preserve">Open cybernetics door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct .
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e7b6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e7b6f0">
+    <command xml:space="preserve">spin the cybernetics door dial to 150150</command>
+    <result xml:space="preserve">Click, and not much else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ecbc50" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ecbc50">
+    <command xml:space="preserve">examine the cybernetics door</command>
+    <result xml:space="preserve">Its another door. This one is like the one you just came through, big and locked with many different parts of machinery to keep it in place, but this time it looks like the code is 4 digits long. Its still the only way out though, so you need to hurry and find a way to open it, agents of The Organization will no doubt be here soon! No way do you want to be a lab rat agian.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e45790" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e45790">
+    <command xml:space="preserve">open cybernetics door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct .
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2cde40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2cde40">
+    <command xml:space="preserve">spin the dial to 150</command>
+    <result xml:space="preserve">Which do you mean, Genetics door or Cybernetics door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2cc1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2cc1e0">
+    <command xml:space="preserve">cybernetics door</command>
+    <result xml:space="preserve">The door unlocks and slowly jerks opens with the clang of moving parts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ebeb30" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ebeb30">
+    <command xml:space="preserve">walk through cybernetics door</command>
+    <result xml:space="preserve">(first opening Cybernetics door)
+
+Cybernetics Lab
+This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well! The next door is to the west.
+
+You can see Cybernetics door, Hall door and Cybernetic computers here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ec9180" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ec9180">
+    <command xml:space="preserve">open hall door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like it will only opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ec4620" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ec4620">
+    <command xml:space="preserve">examind robotic equipment</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2f5a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2f5a20">
+    <command xml:space="preserve">examine robotic equipment</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc28aa70" />
+    </children>
+  </item>
+  <item nodeId="node-0xc28aa70">
+    <command xml:space="preserve">examine machines</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2d75c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2d75c0">
+    <command xml:space="preserve">examine body parts</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e7f3c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e7f3c0">
+    <command xml:space="preserve">examine hall door</command>
+    <result xml:space="preserve">Another mechanical door, really? You would think that The Organization would at least start to make it a challenge to escape, but all the better for you. It looks like this door needs a 3 digit code to be spun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2907a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2907a0">
+    <command xml:space="preserve">examine robotic equipment</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2c3f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2c3f60">
+    <command xml:space="preserve">examine talons</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eeb660" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eeb660">
+    <command xml:space="preserve">examine laboratory</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x45f8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x45f8e0">
+    <command xml:space="preserve">examine body parts</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2e10f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2e10f0">
+    <command xml:space="preserve">examine cybernetics computers</command>
+    <result xml:space="preserve">Cybernetic computers is currently switched off.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2b4170" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2b4170">
+    <command xml:space="preserve">switch on cybernetics computers</command>
+    <result xml:space="preserve">You switch Cybernetic computers on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2c51c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2c51c0">
+    <command xml:space="preserve">examine cybernetic computers</command>
+    <result xml:space="preserve"> Test subject W-61 displays high affinity for cybernetic implants. Organization top scientists have allowed that if experiments with XVO compound result in failure, but subject body is still alive and usable, that W-61 is allowed to be the testing bed for project Organized Roboticly Bonded Solders. The affinity of W-61 for cybernetics is high enough to show a 000 rejection rate, a perfect test subject for project ORBS
+
+Cybernetic computers is currently switched on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2c5fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2c5fa0">
+    <command xml:space="preserve">unlock hall door</command>
+    <result xml:space="preserve">What do you want to unlock Hall door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2c6ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2c6ed0">
+    <command xml:space="preserve">unlock hall door with 000</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2441e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2441e0">
+    <command xml:space="preserve">open hall door</command>
+    <result xml:space="preserve">The door is sealed shut and seems like it will only opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d717d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d717d0">
+    <command xml:space="preserve">spin the dial to 000</command>
+    <result xml:space="preserve">Which do you mean, Cybernetics door or Hall door?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2c9d40" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2c9d40">
+    <command xml:space="preserve">hall door</command>
+    <result xml:space="preserve">The door unlocks and opens with a hiss
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2307f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2307f0">
+    <command xml:space="preserve">walk through the hall door</command>
+    <result xml:space="preserve">(first opening Hall door)
+
+Security Hallway
+A long hallway going south, like the kind in movies where all the traps are, but there only seems to be a camera. Oh no, that means The Organization now knows your trying to escape. You can see the exit at the other end, get out as fast as you can, or you most surly will never get a chance to escape again! Maybe making sure the camera can&apos;t see you can buy some time.
+
+You can see Hall door, Final door and camera here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2baee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2baee0">
+    <command xml:space="preserve">buy time</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2c7e00" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2c7e00">
+    <command xml:space="preserve">examine camera</command>
+    <result xml:space="preserve"> A security camera that is watching your every move. The perfect image for The Organization. .
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ee43b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ee43b0">
+    <command xml:space="preserve">go through final door</command>
+    <result xml:space="preserve">(first opening Final door)
+There is nothing to open the door with, something different must be done to unlock the door. You especially can not escape with that camera showing The Organization what you are doing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2f9a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2f9a60">
+    <command xml:space="preserve">examine final door</command>
+    <result xml:space="preserve">This door is smooth and has nothing you can interact with, there must be something else you have to do to unlocks the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2aab60" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2aab60">
+    <command xml:space="preserve">unlock the final door</command>
+    <result xml:space="preserve">What do you want to unlock Final door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ed4300" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ed4300">
+    <command xml:space="preserve">push open the final door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc262910" />
+    </children>
+  </item>
+  <item nodeId="node-0xc262910">
+    <command xml:space="preserve">examine cameras</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2337a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2337a0">
+    <command xml:space="preserve">examine camera</command>
+    <result xml:space="preserve"> A security camera that is watching your every move. The perfect image for The Organization. .
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc233680" />
+    </children>
+  </item>
+  <item nodeId="node-0xc233680">
+    <command xml:space="preserve">go to camera</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2b1240" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2b1240">
+    <command xml:space="preserve">walk to camera</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5ef31d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5ef31d0">
+    <command xml:space="preserve">break camera</command>
+    <result xml:space="preserve">Violence isn&apos;t the answer to this one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5d79700" />
+    </children>
+  </item>
+  <item nodeId="node-0x5d79700">
+    <command xml:space="preserve">dance in front of the camera</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc234140" />
+    </children>
+  </item>
+  <item nodeId="node-0xc234140">
+    <command xml:space="preserve">turn camera</command>
+    <result xml:space="preserve">It is fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2fbba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2fbba0">
+    <command xml:space="preserve">unplug camera</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc34b870" />
+    </children>
+  </item>
+  <item nodeId="node-0xc34b870">
+    <command xml:space="preserve">tunr off camera</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2164d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2164d0">
+    <command xml:space="preserve">turn off camera</command>
+    <result xml:space="preserve">It isn&apos;t something you can switch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc346740" />
+    </children>
+  </item>
+  <item nodeId="node-0xc346740">
+    <command xml:space="preserve">check inventory</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc347630" />
+    </children>
+  </item>
+  <item nodeId="node-0xc347630">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e3a6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e3a6e0">
+    <command xml:space="preserve">unlock final door</command>
+    <result xml:space="preserve">What do you want to unlock Final door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc3482e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc3482e0">
+    <command xml:space="preserve">unlock final door with body part</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5eb57c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5eb57c0">
+    <command xml:space="preserve">walk through hall door</command>
+    <result xml:space="preserve">
+Cybernetics Lab
+This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well! The next door is to the west.
+
+You can see Hall door, Cybernetics door and Cybernetic computers here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e380e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e380e0">
+    <command xml:space="preserve">take cybernetic computers</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2d42f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2d42f0">
+    <command xml:space="preserve">take body parts</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc218130" />
+    </children>
+  </item>
+  <item nodeId="node-0xc218130">
+    <command xml:space="preserve">take robotic equipment</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e32fe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e32fe0">
+    <command xml:space="preserve">take talons</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc229030" />
+    </children>
+  </item>
+  <item nodeId="node-0xc229030">
+    <command xml:space="preserve">take cybernetic body parts</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc2bca60" />
+    </children>
+  </item>
+  <item nodeId="node-0xc2bca60">
+    <command xml:space="preserve">walk through cybernetics door</command>
+    <result xml:space="preserve">
+Genetic Testing
+This new room seems very different from the last. This room is filled with test tubes filled with different colored liquids. There also seems to be a lack of computers compared to the last room, instead there are a lot of sticky notes. This makes sense for it shows the, diversity, of how Organization scientists work. There still seems to be no way to escape besides another sealed door to the south.
+
+You can see Cybernetics door, Genetics door and sticky notes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc34ad80" />
+    </children>
+  </item>
+  <item nodeId="node-0xc34ad80">
+    <command xml:space="preserve">take test tubes</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc368120" />
+    </children>
+  </item>
+  <item nodeId="node-0xc368120">
+    <command xml:space="preserve">take computers</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc35c4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc35c4d0">
+    <command xml:space="preserve">take sticky notes</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc20f4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc20f4c0">
+    <command xml:space="preserve">walk through hall door</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc352b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xc352b10">
+    <command xml:space="preserve">walk through cybernetics door</command>
+    <result xml:space="preserve">
+Cybernetics Lab
+This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers, you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well! The next door is to the west.
+
+You can see Cybernetics door and Hall door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc357910" />
+    </children>
+  </item>
+  <item nodeId="node-0xc357910">
+    <command xml:space="preserve">walk through hall door</command>
+    <result xml:space="preserve">
+Security Hallway
+A long hallway going south, like the kind in movies where all the traps are, but there only seems to be a camera. Oh no, that means The Organization now knows your trying to escape. You can see the exit at the other end, get out as fast as you can, or you most surly will never get a chance to escape again! Maybe making sure the camera can&apos;t see you can buy some time.
+
+You can see Hall door, Final door and camera here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e3f590" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e3f590">
+    <command xml:space="preserve">walk through final door</command>
+    <result xml:space="preserve">(first opening Final door)
+There is nothing to open the door with, something different must be done to unlock the door. You especially can not escape with that camera showing The Organization what you are doing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc21d9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc21d9c0">
+    <command xml:space="preserve">cover camera</command>
+    <result xml:space="preserve">It isn&apos;t something you can close.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc352fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc352fc0">
+    <command xml:space="preserve">go to camera</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc37ab30" />
+    </children>
+  </item>
+  <item nodeId="node-0xc37ab30">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:
+  sticky notes
+  Cybernetic computers
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc28a5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc28a5f0">
+    <command xml:space="preserve">sticky notes</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc20ce90" />
+    </children>
+  </item>
+  <item nodeId="node-0xc20ce90">
+    <command xml:space="preserve">cover camera with sticky notes</command>
+    <result xml:space="preserve">I only understood you as far as wanting to cover camera.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e3be80" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e3be80">
+    <command xml:space="preserve">use sticky notes to block camera</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc36af50" />
+    </children>
+  </item>
+  <item nodeId="node-0xc36af50">
+    <command xml:space="preserve">unlock final door</command>
+    <result xml:space="preserve">What do you want to unlock Final door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc353ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc353ea0">
+    <command xml:space="preserve">sticky notes</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc36b300" />
+    </children>
+  </item>
+  <item nodeId="node-0xc36b300">
+    <command xml:space="preserve">buy time</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0x5e2e4a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5e2e4a0">
+    <command xml:space="preserve">put something on the camera</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc37b5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xc37b5b0">
+    <command xml:space="preserve">put sticky notes on camera</command>
+    <result xml:space="preserve">The lense of the camera is now covered.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc203530" />
+    </children>
+  </item>
+  <item nodeId="node-0xc203530">
+    <command xml:space="preserve">unlock final door</command>
+    <result xml:space="preserve">(with Cybernetic computers)
+That&apos;s unlocked at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+    <children>
+      <child nodeId="node-0xc21f140" />
+    </children>
+  </item>
+  <item nodeId="node-0xc21f140">
+    <command xml:space="preserve">walk through final door</command>
+    <result xml:space="preserve">(first opening Final door)
+
+Outside room
+You can see Final door here.
+
+
+
+    *** The door silently glides open to the outside world. Freedom now awaits. You can now be free from becoming an Organization experiment once again. They might have created you, but they can never control you! ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="124">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bfdb0">
     <command xml:space="preserve">x surgical tools</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -813,10 +2117,10 @@ You can see Genetics door and Biometric computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xbb77290" />
+      <child nodeId="node-0x1bfe20" />
     </children>
   </item>
-  <item nodeId="node-0xbb77290">
+  <item nodeId="node-0x1bfe20">
     <command xml:space="preserve">x light</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -825,10 +2129,10 @@ You can see Genetics door and Biometric computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc53ab0" />
+      <child nodeId="node-0x1bfe90" />
     </children>
   </item>
-  <item nodeId="node-0xfc53ab0">
+  <item nodeId="node-0x1bfe90">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -837,10 +2141,10 @@ You can see Genetics door and Biometric computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfcdc9e0" />
+      <child nodeId="node-0x1bff00" />
     </children>
   </item>
-  <item nodeId="node-0xfcdc9e0">
+  <item nodeId="node-0x1bff00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Operating door)
 
@@ -854,10 +2158,10 @@ You can see Genetics door and Biometric computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11deed50" />
+      <child nodeId="node-0x1bff70" />
     </children>
   </item>
-  <item nodeId="node-0x11deed50">
+  <item nodeId="node-0x1bff70">
     <command xml:space="preserve">x sign</command>
     <result xml:space="preserve">A bright electric sign declaring what room you are in.
 
@@ -866,10 +2170,10 @@ You can see Genetics door and Biometric computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11dcec20" />
+      <child nodeId="node-0x1bffe0" />
     </children>
   </item>
-  <item nodeId="node-0x11dcec20">
+  <item nodeId="node-0x1bffe0">
     <command xml:space="preserve">x computers</command>
     <result xml:space="preserve">Biometric computers is currently switched off.
 
@@ -878,10 +2182,10 @@ You can see Genetics door and Biometric computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfcc23e0" />
+      <child nodeId="node-0x1c0050" />
     </children>
   </item>
-  <item nodeId="node-0xfcc23e0">
+  <item nodeId="node-0x1c0050">
     <command xml:space="preserve">turn on computers</command>
     <result xml:space="preserve">You switch Biometric computers on.
 
@@ -890,10 +2194,10 @@ You can see Genetics door and Biometric computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfce0c40" />
+      <child nodeId="node-0x1c00c0" />
     </children>
   </item>
-  <item nodeId="node-0xfce0c40">
+  <item nodeId="node-0x1c00c0">
     <command xml:space="preserve">l computers</command>
     <result xml:space="preserve"> Test subject W-61 has been successfully captured and sedated. Subject&apos;s vitals are at nominal levels and is sedated. Augmentation process is prepared and only awaits arrival of Organization doctors. Blood pressure: 1.0, nominal. Heart beat: 100 bpm, nominal. Height: 1.72 meters. Birth: 9-19-98. Age: 16 years 5 months 23 days and counting.
 
@@ -904,10 +2208,10 @@ Biometric computers is currently switched on.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc47ee0" />
+      <child nodeId="node-0x1c0130" />
     </children>
   </item>
-  <item nodeId="node-0xfc47ee0">
+  <item nodeId="node-0x1c0130">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
@@ -916,10 +2220,10 @@ Biometric computers is currently switched on.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d00100" />
+      <child nodeId="node-0x1c01a0" />
     </children>
   </item>
-  <item nodeId="node-0x11d00100">
+  <item nodeId="node-0x1c01a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening Genetics door)
 The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct 5 digit code.
@@ -929,10 +2233,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x10ecdff0" />
+      <child nodeId="node-0x1c0210" />
     </children>
   </item>
-  <item nodeId="node-0x10ecdff0">
+  <item nodeId="node-0x1c0210">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">(Genetics door)
 Its a sealed metal door. This is the only other door in the room, so the only way out, but it seems to to be locked with many mechanical arms. The only opening is a mechanical spin dial that looks like it requires a 5 digit code to be spun to unlock. Just like The Organization to Perhaps the computers holds a clue.
@@ -942,10 +2246,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xdb4f8c0" />
+      <child nodeId="node-0x1c0280" />
     </children>
   </item>
-  <item nodeId="node-0xdb4f8c0">
+  <item nodeId="node-0x1c0280">
     <command xml:space="preserve">spin 9</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -954,10 +2258,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x10ede280" />
+      <child nodeId="node-0x1c02f0" />
     </children>
   </item>
-  <item nodeId="node-0x10ede280">
+  <item nodeId="node-0x1c02f0">
     <command xml:space="preserve">91998</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -966,10 +2270,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc257b0" />
+      <child nodeId="node-0x1c0360" />
     </children>
   </item>
-  <item nodeId="node-0xfc257b0">
+  <item nodeId="node-0x1c0360">
     <command xml:space="preserve">spin 91998</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -978,10 +2282,10 @@ Its a sealed metal door. This is the only other door in the room, so the only wa
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc4e3e0" />
+      <child nodeId="node-0x1c03d0" />
     </children>
   </item>
-  <item nodeId="node-0xfc4e3e0">
+  <item nodeId="node-0x1c03d0">
     <command xml:space="preserve">spin dial to 91998</command>
     <result xml:space="preserve">(Genetics door to that)
 The door unlocks and opens with a hiss
@@ -990,10 +2294,10 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc40610" />
+      <child nodeId="node-0x1c0440" />
     </children>
   </item>
-  <item nodeId="node-0xfc40610">
+  <item nodeId="node-0x1c0440">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">(Genetics door)
 You open Genetics door.
@@ -1003,10 +2307,10 @@ You open Genetics door.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d243e0" />
+      <child nodeId="node-0x1c04b0" />
     </children>
   </item>
-  <item nodeId="node-0x11d243e0">
+  <item nodeId="node-0x1c04b0">
     <command xml:space="preserve">enter door</command>
     <result xml:space="preserve">(Genetics door)
 
@@ -1020,10 +2324,10 @@ You can see Genetics door, Cybernetics door and sticky notes here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d47470" />
+      <child nodeId="node-0x1c0520" />
     </children>
   </item>
-  <item nodeId="node-0x11d47470">
+  <item nodeId="node-0x1c0520">
     <command xml:space="preserve">x liquids</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1032,10 +2336,10 @@ You can see Genetics door, Cybernetics door and sticky notes here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11df3920" />
+      <child nodeId="node-0x1c0590" />
     </children>
   </item>
-  <item nodeId="node-0x11df3920">
+  <item nodeId="node-0x1c0590">
     <command xml:space="preserve">x computers</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1044,10 +2348,10 @@ You can see Genetics door, Cybernetics door and sticky notes here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11de7330" />
+      <child nodeId="node-0x1c0600" />
     </children>
   </item>
-  <item nodeId="node-0x11de7330">
+  <item nodeId="node-0x1c0600">
     <command xml:space="preserve">x notes</command>
     <result xml:space="preserve">Varient lifeform DNA strands have been analyzed and selected. After much initial experimentation trials, the Xeno Variable Organism compound has finaly completed and is read for human experimentation. Test subject W-61 has recently been recaptured and chosen as the first live human experment with the XVO compound. This is the next step in operation World Organization. (a funny side note, in roman numerals, XVO makes my favoret time of day, 1050, or rather 10:50 in the morning. lol)
 
@@ -1056,10 +2360,10 @@ You can see Genetics door, Cybernetics door and sticky notes here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d536b0" />
+      <child nodeId="node-0x1c0670" />
     </children>
   </item>
-  <item nodeId="node-0x11d536b0">
+  <item nodeId="node-0x1c0670">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Cybernetics door)
 The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct .
@@ -1069,10 +2373,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc29180" />
+      <child nodeId="node-0x1c06e0" />
     </children>
   </item>
-  <item nodeId="node-0xfc29180">
+  <item nodeId="node-0x1c06e0">
     <command xml:space="preserve">x door</command>
     <result xml:space="preserve">Which do you mean, Genetics door or Cybernetics door?
 
@@ -1081,10 +2385,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x12274550" />
+      <child nodeId="node-0x4a93f0" />
     </children>
   </item>
-  <item nodeId="node-0x12274550">
+  <item nodeId="node-0x4a93f0">
     <command xml:space="preserve">x cybernetics door</command>
     <result xml:space="preserve">Its another door. This one is like the one you just came through, big and locked with many different parts of machinery to keep it in place, but this time it looks like the code is 4 digits long. Its still the only way out though, so you need to hurry and find a way to open it, agents of The Organization will no doubt be here soon! No way do you want to be a lab rat agian.
 
@@ -1093,10 +2397,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xd028640" />
+      <child nodeId="node-0x4a8e00" />
     </children>
   </item>
-  <item nodeId="node-0xd028640">
+  <item nodeId="node-0x4a8e00">
     <command xml:space="preserve">spin to 1050</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1105,10 +2409,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d01100" />
+      <child nodeId="node-0x4a88f0" />
     </children>
   </item>
-  <item nodeId="node-0x11d01100">
+  <item nodeId="node-0x4a88f0">
     <command xml:space="preserve">spin dial to 1050</command>
     <result xml:space="preserve">Which do you mean, Genetics door or Cybernetics door?
 
@@ -1117,10 +2421,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc18ec0" />
+      <child nodeId="node-0x4a8940" />
     </children>
   </item>
-  <item nodeId="node-0xfc18ec0">
+  <item nodeId="node-0x4a8940">
     <command xml:space="preserve">spin cybernetics door dial to 1050</command>
     <result xml:space="preserve">The door unlocks and slowly jerks opens with the clang of moving parts.
 
@@ -1129,10 +2433,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x1486a7c0" />
+      <child nodeId="node-0x4a8990" />
     </children>
   </item>
-  <item nodeId="node-0x1486a7c0">
+  <item nodeId="node-0x4a8990">
     <command xml:space="preserve">open cybernetics door</command>
     <result xml:space="preserve">You open Cybernetics door.
 
@@ -1141,10 +2445,10 @@ The door is sealed shut and seems like opens only when the correct combination i
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d15ee0" />
+      <child nodeId="node-0x4a89e0" />
     </children>
   </item>
-  <item nodeId="node-0x11d15ee0">
+  <item nodeId="node-0x4a89e0">
     <command xml:space="preserve">enter cybernetics door</command>
     <result xml:space="preserve">
 Cybernetics Lab
@@ -1157,10 +2461,10 @@ You can see Cybernetics door, Hall door and Cybernetic computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc29a50" />
+      <child nodeId="node-0x4a8a30" />
     </children>
   </item>
-  <item nodeId="node-0xfc29a50">
+  <item nodeId="node-0x4a8a30">
     <command xml:space="preserve">x computers</command>
     <result xml:space="preserve">Cybernetic computers is currently switched off.
 
@@ -1169,10 +2473,10 @@ You can see Cybernetics door, Hall door and Cybernetic computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d44090" />
+      <child nodeId="node-0x4a8a80" />
     </children>
   </item>
-  <item nodeId="node-0x11d44090">
+  <item nodeId="node-0x4a8a80">
     <command xml:space="preserve">turn on computer</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1181,10 +2485,10 @@ You can see Cybernetics door, Hall door and Cybernetic computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc0f640" />
+      <child nodeId="node-0x4a8ad0" />
     </children>
   </item>
-  <item nodeId="node-0xfc0f640">
+  <item nodeId="node-0x4a8ad0">
     <command xml:space="preserve">turn on cybernetics computers</command>
     <result xml:space="preserve">You switch Cybernetic computers on.
 
@@ -1193,10 +2497,10 @@ You can see Cybernetics door, Hall door and Cybernetic computers here.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0xfc0f410" />
+      <child nodeId="node-0x4cf4d0" />
     </children>
   </item>
-  <item nodeId="node-0xfc0f410">
+  <item nodeId="node-0x4cf4d0">
     <command xml:space="preserve">x computers</command>
     <result xml:space="preserve"> Test subject W-61 displays high affinity for cybernetic implants. Organization top scientists have allowed that if experiments with XVO compound result in failure, but subject body is still alive and usable, that W-61 is allowed to be the testing bed for project Organized Roboticly Bonded Solders. The affinity of W-61 for cybernetics is high enough to show a 000 rejection rate, a perfect test subject for project ORBS
 
@@ -1207,10 +2511,10 @@ Cybernetic computers is currently switched on.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d15f80" />
+      <child nodeId="node-0x4cf520" />
     </children>
   </item>
-  <item nodeId="node-0x11d15f80">
+  <item nodeId="node-0x4cf520">
     <command xml:space="preserve">x hall door</command>
     <result xml:space="preserve">Another mechanical door, really? You would think that The Organization would at least start to make it a challenge to escape, but all the better for you. It looks like this door needs a 3 digit code to be spun.
 
@@ -1219,10 +2523,10 @@ Cybernetic computers is currently switched on.
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x11d166f0" />
+      <child nodeId="node-0x4cf570" />
     </children>
   </item>
-  <item nodeId="node-0x11d166f0">
+  <item nodeId="node-0x4cf570">
     <command xml:space="preserve">spin hall door to 000</command>
     <result xml:space="preserve">
 *** Run-time problem P10: Since Security door is not allowed the property &quot;locked&quot;, it is against the rules to try to use it.
@@ -1233,10 +2537,10 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x1227e9d0" />
+      <child nodeId="node-0x4cf5c0" />
     </children>
   </item>
-  <item nodeId="node-0x1227e9d0">
+  <item nodeId="node-0x4cf5c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1245,10 +2549,10 @@ The door unlocks and opens with a hiss
     <changed>YES</changed>
     <temporary score="98">YES</temporary>
     <children>
-      <child nodeId="node-0x10ea2cb0" />
+      <child nodeId="node-0x4cf610" />
     </children>
   </item>
-  <item nodeId="node-0x10ea2cb0">
+  <item nodeId="node-0x4cf610">
     <command xml:space="preserve">x me</command>
     <result xml:space="preserve">As good-looking as ever.
 
