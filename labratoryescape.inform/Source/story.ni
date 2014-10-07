@@ -4,13 +4,13 @@ When play begins: say "You wake up on a metal table in the center of a chrome ro
 
 The description of the player is "Your as good-looking as ever, but you seem to be wearing one of those gowns patients wear in hospitals."
 
-Operating Room is a room. "After taking a look around the room you are in, you can see many surgical tools around. The bright lights shine off the metal walls and floor, and illuminates everything. There is a door to the south, that must be the way out."
+Operating Room is a room. "After taking a look around the room you are in, you can see a complecated surgical tool next to you. The bright lights shine off the metal walls and floor, and illuminates everything. There is a door to the south, that must be the way out."
 
-tools is a thing. tools is in Operating Room. tools is scenery. The description is "Advanced looking tools with many sharp pointy ends. The Organization always did have a flair for dramatic tools." Instead of player taking tools, say "Those look dangerous, you might hurt your self".
+surgical tool is a thing. sergical tool is in Operating Room. surgeical tool is scenery. The description is "An advanced looking tool with many sharp pointy ends. The Organization always did have a flair for dramatic tools." Instead of player taking surgical tool, say "That look dangerous, you might hurt your self".
 
 Operating door is south of Operating Room and north of Biometric Data Storage. Operating door is a door. Operating door is scenery.
 
-Biometric Data Storage is south of Operating door. "This room is covered with computer screens with different images and numbers on them. It also has a sign has a sign calling it Biometric Data Storage. These computers must have been monitoring your condition. There is a door to the east, but it seems to be locked, with a spin dial lock that requires you to spin the dial to a 5 digit code all at once. You will have to find a way to unlock it. Maybe you could find a clue by examening the computer."
+Biometric Data Storage is south of Operating door. "This room is covered with computer screens with different images and numbers on them. It also has a sign calling it Biometric Data Storage. These computers must have been monitoring your condition. There is a door to the east, but it seems to be locked, with a spin dial lock that requires you to spin the dial to a 5 digit code all at once. You will have to find a way to unlock it. Maybe you could find a clue by examining the computer."
 
 Biometric sign is a thing. Biometric sign is in Biometric Data storage. Biometric sign is scenery. The description is "A bright electric sign declaring what room you are in."
 
@@ -43,7 +43,7 @@ Instead of spinning the closed Genetics door to 91998:
 
 Genetic Testing is east of Genetics door. "This new room seems very different from the last. This room is filled with test tubes filled with different colored liquids. There also seems to be a lack of computers compared to the last room, instead there are a lot of sticky notes. This makes sense for it shows the, diversity, of how Organization scientists work. There still seems to be no way to escape besides another sealed door to the south with a new 3 digit code to spin to. There are no computers here to help though, examining the notes though might help."
 
-sticky notes is a thing. sticky notes is in Genetic Testing. The description is "Varient lifeform DNA strands have been analyzed and selected. After much initial experimentation trials, the Xeno Variable Organism compound has finaly completed and is read for human experimentation. Test subject W-61 has recently been recaptured and chosen as the first live human experment with the XVO compound. This is the next step in operation World Organization. (a funny side note, in roman numerals, XVO makes my favoret time of day, a 1, a 5, and then O makes 0, or rather 1:50 in the morning. lol)".
+sticky notes is a thing. sticky notes is in Genetic Testing. The description is "Varient lifeform DNA strands have been analyzed and selected. After initial experimentation trials, the Xeno Variable Organism compound has finally been completed and is ready for human  experimentation. Test subject W-61 has recently been recaptured and chosen as the first live human experment with the XVO compound. This is the next step in operation World Organization. (a funny side note, in roman numerals, XVO makes my favoret time of day, a 1, a 5, and then O makes 0, or rather 1:50 in the morning. lol)".
 
 liquids is a thing. liquids is in Genetic Testing. liquids is scenery. The description is "Multi colored liquids with labels on them, but some of them have labels that say unrecognizable animals, or ones that are not thought to be real. Like the ones that say 'Dragon' or 'Zevon'." Instead of player taking liquids, say "These may look pretty, but they don't seem like they could help you escape. Now get moving, Organization scientists could come at any minuet!"
 Understand "test tubes" as liquids
@@ -52,7 +52,7 @@ Cybernetics door is south of Genetic Testing and north of Cybernetics Lab. Cyber
 [copy Understand "dial" and "dials" as the door.]
 
 Instead of opening Cybernetics door when cybernetics door is locked:
-    say "The door is sealed shut and seems like opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct 3 digit code."
+    say "The door is sealed shut and seems like it opens only when the correct combination is spun in the spin dial. You must spin the dial to the correct 3 digit code."
 
 [Check the action spinning in case its not applied to Genetics door.]
 [duplicate code Check spinning it to:
@@ -66,9 +66,9 @@ Instead spinning the closed Cybernetics door to 150:
     say "The door unlocks and slowly jerks opens with the clang of moving parts."
 [End of code to open locked Genetics door.]
 
-Cybernetics Lab is south of Cybernetics door. "This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers. All of these are in sealed boxes on high shelves though, so there is no way to get a better look at them, but you can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well! The next door is to the west. Examing the computer could yield some clues."
+Cybernetics Lab is south of Cybernetics door. "This room seems to be a laboratory filled with robotic equipment. Considering that some of the machines look like robotic versions of human body parts, like glowing metal eyes and arms with talons for fingers. All of these are in sealed boxes on high shelves, so there is no way to get a better look at them. You can only assume The Organization was also planing to implant cybernetic body parts in you! Now not only is your genetic makeup on the line, but your biological body as well! The next door is to the west. Examining the computer could yield some clues."
 
-Cybernetic computer is a device. Cybernetic computer is fixed in place. Cybernetic computer is in Cybernetics Lab. At start of game Cybernetic computer is in the off position. The description of Cybernetic computers is "[if cybernetic computer is switched on] Test subject W-61 displays high affinity for cybernetic implants. Organization top scientists have allowed that if experiments with XVO compound result in failure, but subject body is still alive and usable, that W-61 is allowed to be the testing bed for project Organized Roboticly Bonded Solders. The affinity of W-61 for cybernetics is high enough to show a 000 rejection rate, a perfect test subject for project ORBS".
+Cybernetic computer is a device. Cybernetic computer is fixed in place. Cybernetic computer is in Cybernetics Lab. At start of game Cybernetic computer is in the off position. The description of Cybernetic computer is "[if cybernetic computer is switched on] Test subject W-61 displays high affinity for cybernetic implants. Organization top scientists have allowed that if experiments with XVO compound result in failure, but subject body is still alive and usable, that W-61 is allowed to be the testing bed for project Organized Roboticly Bonded Solders. The affinity of W-61 for cybernetics is high enough to show a 000 rejection rate, a perfect test subject for project ORBS".
 
 Hall door is west of Cybernetics Lab and east of Security Hallway. Hall door is a door. It is locked and lockable, closed and openable. The description is "Another mechanical door, really? You would think that The Organization would at least start to make it a challenge to escape, but all the better for you. It looks like this door needs a 3 digit code to be spun."
 [copy 3 Understand "dial" and "dials" as the door.]
@@ -89,7 +89,7 @@ Instead of spinning the closed Hall door to 000:
 [End of code to open locked Genetics door.]
 
 
-Security Hallway is west of Hall door. "A long hallway going south, like the kind in movies where all the traps are, but there only seems to be a camera. Oh no, that means The Organization now knows your trying to escape. You can see the exit at the other end, get out as fast as you can, or you most surely will never get a chance to escape again! Maybe putting something on the camera so it can't see you can buy some time. You don't have anything on you though, maybe there was something in the other rooms that you can take to help. Maybe something light, like paper."
+Security Hallway is west of Hall door. "A long hallway going south, like the kind in movies where all the traps are, but there only seems to be a camera. Oh no, that means The Organization now knows you are trying to escape. You can see the exit at the other end, get out as fast as you can, or you most surely will never get a chance to escape again! Maybe putting something on the camera so it can't see you can buy some time. You don't have anything on you though, maybe there was something in the other rooms that you can take to help. Maybe something light, like paper."
 
 Final door is south of Security Hallway. Final door is a door. Final door is locked and lockable, closed and openable. The description is "This door is smooth and has nothing you can interact with, there must be something else you have to do to unlocks the door."
 
@@ -100,8 +100,18 @@ camera is a thing. camera is in Security Hallway. camera is fixed in place. The 
 camera can be covered or uncovered. The camera is uncovered.
 [Understand "cover camera with [something]" as putting it on camera.]
 
+Understand "cover [something] with [something]" as covering it with.
+Covering it with is an action applying to two things.
+
+Check covering it with:
+	If noun is camera and second noun is sticky notes:
+		say "The lense of the camera is now covered. Did you hear a click in the door? Maybe you should try leaving again.";
+		remove sticky notes from play;
+		now Final door is unlocked;
+		now camera is covered.
+
 Instead of putting sticky notes on camera:
-	say "The lense of the camera is now covered.";
+	say "The lense of the camera is now covered. Did you hear a click in the door? Maybe you should try leaving again.";
 	remove sticky notes from play;
 	now Final door is unlocked;
 	now camera is covered.
