@@ -1,5 +1,7 @@
 "Laboratory Escape" by Cole Damon
 
+Release along with cover art ("Cover art")
+
 When play begins: say "You wake up on a metal table in the center of a chrome room. You have no memory of how you got here, but suspect that The Organization has finally captured you. It looks like they must have been preparing to run new experiments on you! You must escape before The Organization can use you as a test subject again."
 
 The description of the player is "Your as good-looking as ever, but you seem to be wearing one of those gowns patients wear in hospitals."
